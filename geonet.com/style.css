@@ -1,0 +1,141 @@
+body{
+    background: #1A1A1A;
+}
+
+
+.log_img{
+    position: absolute;
+
+    width: 191px;
+    height: 74px;
+    left: 55px;
+    top: 33px;
+
+    list-style: none;
+}
+
+
+
+           /*---------------------janrebi----------------------*/
+           /*---------------------janrebi----------------------*/
+           /*---------------------janrebi----------------------*/
+           /*---------------------janrebi----------------------*/
+           /*---------------------janrebi----------------------*/
+
+
+
+.menu_list{
+    position: relative;
+
+    width: 0px;
+    height: 0px;
+    font-size: 20px;
+    left: 325px;
+    top: 36px;
+    display: flex;
+    list-style: none;
+}
+
+
+
+.dropdown_img{
+    position: relative;
+
+    width: 13px;
+    height: 13px;
+
+    left: 125px;
+    top: -23px;
+
+    cursor: pointer;
+
+    transition: all 1s;
+}
+
+
+
+.menu_list-link{
+    position: absolute;
+
+    left: -10px;
+    margin: 80px;
+
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu_list-link{
+    position: relative; 
+
+    width: 0px;
+    height: 0px;
+}
+
+
+
+           /*---------------------janrebi all----------------------*/
+           /*---------------------janrebi all----------------------*/
+           /*---------------------janrebi all----------------------*/
+           /*---------------------janrebi all----------------------*/
+           /*---------------------janrebi all----------------------*/
+
+
+
+.menu_dropdown{
+    position: absolute;
+
+    list-style: none;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 1s;
+}
+
+
+
+.dropdown_bg{
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    left: 55px;
+    top: -20px;
+    
+    background: rgba(70, 69, 69, 0.34);
+    border-radius: 17px;
+}
+
+
+
+
+.menu_dropdown-item{
+    position: relative;
+
+    top: -20px;
+    left: 20px;
+    margin: 5px;
+    font-size: 15px;
+
+}
+
+
+.menu_dropdown-link{
+    position: relative;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.menu_list-item:hover .menu_dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.menu_list-item:hover .dropdown_img{
+    transform: rotate(180deg);
+}
